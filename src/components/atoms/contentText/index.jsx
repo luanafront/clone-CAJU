@@ -1,9 +1,9 @@
 import React from "react";
 
-const ContentText = ({class, conteudo}) => {
+const ContentText = ({className, content}) => {
     return (
-        <p className={class}>
-             {conteudo} 
+        <p className={className}>
+             {content} 
         </p>
     )
 }

@@ -1,0 +1,47 @@
+.mainHeader > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .salutation {}
+        .salutation__text--hi {}
+        .salutation__text--name {
+            display: inline-block
+        }
+        .salutation__text--hi , .salutation__text--name {
+            font-size: 2.5rem;
+        }
+    .visibility {
+        height: 100%;
+    }
+        .visibility svg {
+            font-size: 2.5rem;
+        }
+    .mainHeader__text {
+        font-weight: bold;
+        font-size: 1.2rem
+    }
+    .mainHeader__benefits {
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        overflow-x: scroll;
+    }
+    .mainHeader__benefit {
+        padding: 1.5rem;
+        height: 150px;
+        margin-right: 1rem;
+        border-radius: 1.5rem;
+        min-width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mainHeader__benefit > svg {
+        font-size: 3.5rem;
+    }
+    .mainHeader__benefit > p {
+       font-weight: bold;
+    }
