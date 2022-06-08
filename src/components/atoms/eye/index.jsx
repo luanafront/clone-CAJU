@@ -1,13 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
-const Eye = () => {
-    const [click, setClick] = useState(false)
-
-    const toggleEye = () => {
-        setClick(!click)
-    }
+const Eye = ({click, toggleEye}) => {
+   
     return (
         click ? 
         <VisibilityOffIcon onClick={toggleEye}/> :

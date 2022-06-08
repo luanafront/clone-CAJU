@@ -1,11 +1,11 @@
 import React from "react";
 import Money from "../../atoms/money";
 
-const MoneyCard = ({Icon, price, value, color, className}) => {
+const MoneyCard = ({Icon, price, value, color, className, click}) => {
     return (
         <li className={className} style={{background: color}}>
             <Icon/>
-            <Money price={price}/>
+            <Money click={click} price={price}/>
             <p>{value}</p>
         </li>
     )
