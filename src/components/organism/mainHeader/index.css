@@ -2,8 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 2.8rem 0 3.3rem;
 }
-    .salutation {}
+    .salutation {
+    }
         .salutation__text--hi {}
         .salutation__text--name {
             display: inline-block
@@ -19,7 +21,8 @@
         }
     .mainHeader__text {
         font-weight: bold;
-        font-size: 1.2rem
+        font-size: 1.2rem;
+        padding-left: 2.5rem;
     }
     .mainHeader__benefits {
         color: #fff;
@@ -28,6 +31,7 @@
         list-style: none;
         display: flex;
         overflow-x: scroll;
+        padding-inline: 3.5rem;
     }
     .mainHeader__benefit {
         padding: 1.5rem;
