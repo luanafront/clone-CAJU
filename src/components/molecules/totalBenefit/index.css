@@ -3,7 +3,10 @@
     align-items: center;
     justify-content: space-between;
     font-size: 1.3rem;
-    padding: 0 2.0rem 0 2.0rem;
+    padding: 0 3rem 0 3.0rem;
+}
+.totalBenefitBox {
+    margin-top: 1.0rem
 }
     .totalBenefit__text , .totalBenefit__price{
         font-weight: bold;

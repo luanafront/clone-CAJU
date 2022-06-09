@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import MainHeader from './components/organism/mainHeader';
+import Pages from "./components/pages"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <MainHeader/>
+        <Pages/>
     </div>
   );
 }

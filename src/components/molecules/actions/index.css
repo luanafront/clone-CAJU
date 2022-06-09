@@ -1,0 +1,33 @@
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3.0rem 0 3.0rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    padding-block: .6rem ;
+}
+.action > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .action__icon {
+        background: #3a60ff;
+        border-radius: 5.0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        margin-right: 1.5rem;
+    }
+    .action__icon > svg {
+        font-size: 2.1rem;
+        color: #fff;
+    }
+    .action__text {
+        font-size: 1.3rem;
+    }
+    .action__icon--arrow {
+        color:#3a60ff
+    }

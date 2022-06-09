@@ -4,7 +4,7 @@ import "./index.css"
 
 const TotalBenefit = ({value, click}) => {
     return (
-        <div>
+        <div className="totalBenefitBox">
             <section className="totalBenefit">
                 <ContentText className="totalBenefit__text" content="Total em benefícios"/>
                 <p className="totalBenefit__price">
@@ -22,3 +22,7 @@ const TotalBenefit = ({value, click}) => {
 }
 
 export default TotalBenefit
+
+
+
+
