@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import Salutation from "../../molecules/salutation";
-import ContentText from "../../atoms/contentText";
-import MoneyCard from "../../molecules/moneyCard";
+import Salutation from "../../../molecules/salutation";
+import ContentText from "../../../atoms/contentText";
+import MoneyCard from "../../../molecules/moneyCard";
 import moneyCards from "./moneyCard";
-import TotalBenefit from "../../molecules/totalBenefit";
+import TotalBenefit from "../../../molecules/totalBenefit";
 
 
 import "./index.css"
@@ -38,6 +38,7 @@ const MainHeader = () => {
                     )
                 })}
                 </ul>
+               
             <TotalBenefit click={click} value={sumBenefits}/>
         </header>
     )

@@ -1,0 +1,11 @@
+.options {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px -2px 0 rgba(0, 0, 0, 0.137);
+    padding-top: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    width: calc(100vw - 4rem);
+    background-color: #fff;
+    padding-inline: 2.0rem ;
+}

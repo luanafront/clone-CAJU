@@ -1,0 +1,17 @@
+.mainFooter {
+    padding-inline:3rem ;
+    margin-top: 2.5rem
+}
+    .mainFooter__title {
+        font-size: 1.2rem;
+    }
+    .mainFooter__textBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+        margin-bottom: 70px;
+    }
+        .mainFooter__text {
+            font-size: 1.8rem;
+        }
