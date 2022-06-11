@@ -5,7 +5,7 @@ import Title from "../../atoms/title";
 
 const FlexibleValueModal = ({click, setClick}) => {
     let titleContent = "Valor flexível"
-    let textContent = "A flexíbilidade para transferências entre benefícios é definida pela sua empresa a cada nova recarga de créditos. Caso tenha alguma dúvida sobre o valor flexível, recomendamos que converse diretamente com seu RH. "
+    let textContent = "A flexibilidade para transferências entre benefícios é definida pela sua empresa a cada nova recarga de créditos. Caso tenha alguma dúvida sobre o valor flexível, recomendamos que converse diretamente com seu RH. "
     return (
         click ? 
         <div className="modalBoxShadow" onClick={setClick}>
