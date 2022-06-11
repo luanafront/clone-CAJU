@@ -5,13 +5,23 @@
     font-size: 1.3rem;
     padding: 0 3rem 0 3.0rem;
 }
+    .totalBenefit__textBox{
+        display: flex;
+        align-items: center;
+    }
 .totalBenefitBox {
-    margin-top: 1.0rem
+    margin-top: 1.0rem;
 }
+    .totalBenefit__textBox > svg {
+        font-size: 1.8rem;
+    }
     .totalBenefit__text , .totalBenefit__price{
         font-weight: bold;
         margin-top: 2.2rem;
     }
     .totalBenefit__text--flex , .totalBenefit__price--flex {
         margin: 0;
+    }
+    .totalBenefit__text--flex {
+        margin-right: 0.5rem;
     }
