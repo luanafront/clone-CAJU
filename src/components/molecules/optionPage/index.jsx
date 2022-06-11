@@ -9,7 +9,7 @@ const OptionPage = ({path, Icon, text}) => {
         navigate(path)
     }
     return (
-        <div onClick={goToPath} className="optionPage" style={click ? {borderBottom: "2px solid #3a60ff"} : {}}>
+        <div onClick={goToPath} className="optionPage" style={{borderBottom: click ? "2px solid #3a60ff" : "2px solid transparent"}}>
             <Icon style={{color: click ? "#3a60ff" : "#7f7f7f"}}/>
             <p style={{color: click ? "#3a60ff" : "#7f7f7f"}}>{text}</p>
         </div>

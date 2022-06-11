@@ -32,6 +32,17 @@
         display: flex;
         overflow-x: scroll;
         padding-inline: 3.5rem;
+        -ms-overflow-style: none;
+        scrollbar-width: none; 
+    }
+    .mainHeader__benefits::-webkit-scrollbar {
+        height: 0;
+    }
+    .mainHeader__benefits::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+    .mainHeader__benefits::-webkit-scrollbar-thumb {
+        border-radius: 20px;       
     }
     .mainHeader__benefit {
         padding: 1.5rem;
