@@ -33,6 +33,7 @@ const MainHeader = () => {
                             price={card.price}
                             value={card.value}
                             color={card.color}
+                            path={card.path}
                             click={click}
                         />
                     )

@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import {useParams, useNavigate} from "react-router-dom";
 import moneyCards from "../../organism/main/mainHeader/moneyCard";
+import BenefitHeader from "../../organism/benefit/benefitHeader";
 
 const BenefitPage = () => {
     const {benefitName} = useParams()
@@ -21,8 +22,12 @@ const BenefitPage = () => {
         "saude": "SAÚDE"
     }
     let key = keyParams[benefitName]
+    let benefitItem = moneyCards.find((moneyCard) => moneyCard.value === key)
+
     return (
-        <div>oi</div>
+        <div>
+            <BenefitHeader arrowColor={benefitItem.color} />
+        </div>
     )
 }
 
