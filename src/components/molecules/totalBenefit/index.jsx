@@ -21,7 +21,7 @@ const TotalBenefit = ({value, click}) => {
             <section className="totalBenefit">
                 <div className="totalBenefit__textBox">
                     <ContentText onClick={clickModal} className="totalBenefit__text--flex" content="Valor flexível"/>
-                    <HelpOutlineIcon/>
+                    <HelpOutlineIcon onClick={clickModal}/>
                 </div>
                 <p className="totalBenefit__price--flex" >
                     R$ {click ? "•••••" : "0,00"}
