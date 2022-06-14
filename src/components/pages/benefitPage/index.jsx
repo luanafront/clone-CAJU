@@ -26,7 +26,7 @@ const BenefitPage = () => {
 
     return (
         <div>
-            <BenefitHeader arrowColor={benefitItem.color} />
+            <BenefitHeader benefitName={benefitItem.value} benefitValue={benefitItem.price} arrowColor={benefitItem.color} />
         </div>
     )
 }

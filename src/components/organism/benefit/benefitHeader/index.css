@@ -1,0 +1,44 @@
+.benefitHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 2.0rem 2.0rem;
+    padding-top: 4rem ;
+    padding-bottom: 3rem;
+}
+    .benefitLabel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxValue {
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+        .boxValue__text--identifier {
+            font-size: 1.5rem;
+            color: #fff;
+            margin: 0;
+            margin-right: .4rem;
+            margin-bottom: .2rem;
+        }
+        .boxValue__text--value {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #fff;
+            margin: 0;
+        }
+        .benefitLabel__text {
+            font-size: 1.5rem;
+            color: #fff;
+            letter-spacing: .3rem;
+            margin: 0;
+            margin-top: 0.5rem;
+        }
+    .benefitHeader__box--help > svg{
+        font-size: 4.0rem;
+        color:#fff;
+    }
