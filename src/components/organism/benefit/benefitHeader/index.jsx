@@ -18,6 +18,7 @@ const BenefitHeader = ({arrowColor, benefitName, benefitValue}) => {
             <div className="boxHelp benefitHeader__box--help">
                 <HelpOutlineIcon/>
             </div>
+            
         </header>
     )
 }

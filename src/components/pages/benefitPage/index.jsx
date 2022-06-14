@@ -2,6 +2,7 @@ import React, {useEffect} from "react";
 import {useParams, useNavigate} from "react-router-dom";
 import moneyCards from "../../organism/main/mainHeader/moneyCard";
 import BenefitHeader from "../../organism/benefit/benefitHeader";
+import BenefitCentral from "../../organism/benefit/benefitCentral";
 
 const BenefitPage = () => {
     const {benefitName} = useParams()
@@ -27,6 +28,7 @@ const BenefitPage = () => {
     return (
         <div>
             <BenefitHeader benefitName={benefitItem.value} benefitValue={benefitItem.price} arrowColor={benefitItem.color} />
+            <BenefitCentral/>
         </div>
     )
 }

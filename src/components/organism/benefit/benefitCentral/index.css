@@ -1,0 +1,31 @@
+.benefitFilters {
+    display: flex;
+    padding-inline: 3.0rem;
+    margin-top: 1.3rem;
+    height: 55px;
+}
+    .benefitCentral__text {
+        text-align: center;
+        font-size: 1.7rem;
+        margin-top: 6rem;
+    }
+    .benefitCentral__button {
+        background-color: #b0c2f4;
+        margin-inline: 3.0rem;
+        border-radius: .7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: calc(100vw - 6rem);
+        bottom: 2rem;
+    }
+        .benefitCentral__button > svg {
+            color: #ced9f5;
+            font-size: 2.3rem;
+        }
+        .benefitCentral__buttonText {
+            color: #ced9f5;
+            font-size: 1.5rem;
+            margin-left: 1rem;
+        }

@@ -1,0 +1,17 @@
+.genericCalendar {
+    border: 1px solid #3a60ff;
+    display: flex;
+    align-items: center;
+    padding-inline: 2rem;
+    border-radius: 1rem;
+}
+    .genericCalendar > svg {
+        color: #3a60ff;
+        font-size: 3rem;
+    }
+    .genericCalendar__text {
+        font-size: 1.5rem;
+        color: #3a60ff;
+        font-weight: 500;
+        margin-left: 0.3rem;
+    }
