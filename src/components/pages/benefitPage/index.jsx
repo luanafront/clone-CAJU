@@ -23,8 +23,7 @@ const BenefitPage = () => {
         let key = keyParams[benefitName]
         let benefitItem = moneyCards.find((moneyCard) => moneyCard.value === key)
         let topColor = document.getElementById("topColor")
-        console.dir(topColor)
-        topColor.color = benefitItem.color
+        topColor.content = benefitItem.color
     }, [])
 
     let keyParams = {
