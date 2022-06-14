@@ -13,6 +13,18 @@ const BenefitPage = () => {
         if (allowedParams.includes(benefitName) === false ){
             navigate("/")
         }
+        let keyParams = {
+            "home-office": "HOME OFFICE",
+            "alimentacao": "ALIMENTAÇÂO", 
+            "mobilidade": "MOBILIDADE",
+            "cultura": "CULTURA",
+            "saude": "SAÚDE"
+        }
+        let key = keyParams[benefitName]
+        let benefitItem = moneyCards.find((moneyCard) => moneyCard.value === key)
+        let topColor = document.getElementById("topColor")
+        console.dir(topColor)
+        topColor.color = benefitItem.color
     }, [])
 
     let keyParams = {
@@ -24,8 +36,6 @@ const BenefitPage = () => {
     }
     let key = keyParams[benefitName]
     let benefitItem = moneyCards.find((moneyCard) => moneyCard.value === key)
-    let topColor = document.getElementById("topColor")
-    topColor.color = benefitItem.color
 
     return (
         <div>
