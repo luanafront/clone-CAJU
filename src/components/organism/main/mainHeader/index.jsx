@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Salutation from "../../../molecules/salutation";
 import ContentText from "../../../atoms/contentText";
 import MoneyCard from "../../../molecules/moneyCard";
@@ -13,11 +13,30 @@ const MainHeader = () => {
 
     const toggleEye = () => {
         setClick(!click)
+        let clickVerification = localStorage.getItem("MAIN_PAGE_EYE")
+        if(clickVerification === null){
+            localStorage.setItem("MAIN_PAGE_EYE", "clicked")
+        }
+        if(clickVerification === "clicked"){
+            localStorage.setItem("MAIN_PAGE_EYE", "no clicked")
+        } else if(clickVerification === "no clicked"){
+            localStorage.setItem("MAIN_PAGE_EYE", "clicked")
+        }
     }
     let sumBenefits = 0
     moneyCards.forEach(card => {
         sumBenefits += card.price
     })
+    useEffect(()=> {
+        let clickVerification = localStorage.getItem("MAIN_PAGE_EYE")
+        if(clickVerification !== null) {
+            if (clickVerification === "clicked") {
+                setClick(true)
+            } else {
+                setClick(false)
+            }
+        }
+    },[])
     return (
         <header className="mainHeader">
             <div  className="salutationBox">
