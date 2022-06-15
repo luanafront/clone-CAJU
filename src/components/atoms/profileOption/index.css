@@ -1,0 +1,22 @@
+.profileOption {
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #6661f61a;
+    padding-block: .8rem;
+    align-items: center;
+    width: 80%;
+}
+.profileOption:last-child {
+    border-bottom: 0;
+}
+    .profileOption__icon {}
+    .profileOption__icon > svg {
+        font-size: 3rem;
+        color: #6561f6;
+    }
+    .profileOption__link {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5rem;
+        margin-left: 1.7rem;
+    }
