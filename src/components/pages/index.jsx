@@ -2,7 +2,8 @@ import React, {useEffect, useState} from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import MainPage from "./mainPage";
 import BenefitPage from "./benefitPage";
-import Options from "../organism/options"
+import ProfilePage from "./profilePage";
+import Options from "../organism/options";
 
 const Pages = () => {
     const location = useLocation()
@@ -15,6 +16,7 @@ const Pages = () => {
             <Routes>
                 <Route exact path="/" element={<MainPage/>}/>
                 <Route path="/benefit-page/:benefitName" element={<BenefitPage/>}/>
+                <Route path="/profile/" element={<ProfilePage/>}/>
             </Routes>
             {path.includes("benefit-page") ? "" : <Options/> }
         </>
