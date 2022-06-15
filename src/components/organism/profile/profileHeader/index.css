@@ -8,8 +8,8 @@
     }
     .imgBox {
         border-radius: 10rem;
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         position: relative;
         margin-top: 1rem;
     }
@@ -27,7 +27,7 @@
         justify-content: center;
         position: absolute;
         right: 0;
-        bottom: 2px;
+        bottom: -2px;
       }
       .imgBox__icon > svg {
         color:#fff;
