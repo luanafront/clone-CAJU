@@ -37,10 +37,10 @@ const BenefitPage = () => {
     let benefitItem = moneyCards.find((moneyCard) => moneyCard.value === key)
 
     return (
-        <div>
+        <>
             <BenefitHeader benefitName={benefitItem.value} benefitValue={benefitItem.price} arrowColor={benefitItem.color} />
             <BenefitCentral/>
-        </div>
+        </>
     )
 }
 
