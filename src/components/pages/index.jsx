@@ -4,6 +4,7 @@ import MainPage from "./mainPage";
 import BenefitPage from "./benefitPage";
 import ProfilePage from "./profilePage";
 import Options from "../organism/options";
+import CardPage from "./cardPage";
 
 const Pages = () => {
     const location = useLocation()
@@ -17,6 +18,7 @@ const Pages = () => {
                 <Route exact path="/" element={<MainPage/>}/>
                 <Route path="/benefit-page/:benefitName" element={<BenefitPage/>}/>
                 <Route path="/profile/" element={<ProfilePage/>}/>
+                <Route path="/card/" element={<CardPage/>}/>
             </Routes>
             {path.includes("benefit-page") ? "" : <Options/> }
         </>
