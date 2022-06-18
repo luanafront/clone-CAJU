@@ -1,30 +1,34 @@
-import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import RssFeedIcon from '@mui/icons-material/RssFeed';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import KeyOutlinedIcon from '@mui/icons-material/KeyOutlined';
+import AddCardOutlinedIcon from '@mui/icons-material/AddCardOutlined';
+import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 
 export const fisicCardActions = [
     {
-        Icon: ContentCopyIcon,
+        Icon: LockOutlinedIcon,
         label: "Bloquear"
     },
     {
-        Icon: ContentCopyIcon,
+        Icon: KeyOutlinedIcon,
         label: "Senha"
     },
     {
-        Icon: ContentCopyIcon,
+        Icon: RssFeedIcon,
         label: "Aproximação"
     },
     {
-        Icon: ContentCopyIcon,
+        Icon: AddCardOutlinedIcon,
         label: "2° Via"
     }
 ]
 export const virtualCardActions = [
     {
-        Icon: ContentCopyIcon,
+        Icon: LockOutlinedIcon,
         label: "Bloquear"
     },
     {
-        Icon: ContentCopyIcon,
+        Icon: DeleteOutlineOutlinedIcon,
         label: "Excluir"
     }
 ]
