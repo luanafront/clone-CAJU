@@ -1,11 +1,12 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
+import KeyOutlinedIcon from '@mui/icons-material/KeyOutlined';
+
 
 const profileOptions = [
     {
@@ -14,7 +15,7 @@ const profileOptions = [
         link: "https://www.linkedin.com/in/luanafront/"
     },
     {
-        Icon: LockOutlinedIcon,
+        Icon: KeyOutlinedIcon,
         text: "Segurança",
         link: ""
     },
