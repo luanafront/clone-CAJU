@@ -1,0 +1,40 @@
+.cardHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .cardNamesBox {
+        display: flex;
+    }
+        .cardNamesBox__text--fisic, .cardNamesBox__text--virtual, .cardNamesBox__text--fisicClicked, .cardNamesBox__text--virtualClicked {
+            text-align: center;
+            width: 15.0rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        .cardNamesBox__text--fisicClicked {
+            color: rgba(0, 0, 0, 0.39);
+        }
+        .cardNamesBox__text--virtualClicked {
+            color: #000;
+        }
+        .cardNamesBox__text--fisic {
+            color: #000;
+        }
+        .cardNamesBox__text--virtual {
+            color: rgba(0, 0, 0, 0.39);
+        }
+    .cardHeader__border {
+        background-color: #3a60ff;
+        height: 2px;
+        width: 15rem;
+        transition: 0.5s;
+        transform: translateX(-72px);
+    }
+    .cardHeader__border--clicked {
+        background-color: #3a60ff;
+        height: 2px;
+        width: 15rem;
+        transition: 0.5s;
+        transform: translateX(74px);
+    }
