@@ -2,6 +2,7 @@ import React from "react";
 import cardFrontImg from "./images/caju-card-front.png";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import visaLogoImg from "./images/visa-logo.png";
+import { fisicCardActions, virtualCardActions } from "./cardActions";
 import "./index.css";
 
 const CardCentral = ({isFisicCard = true}) => {
@@ -30,19 +31,51 @@ const CardCentral = ({isFisicCard = true}) => {
                         </div>
                     </>
                 }
-                <div className="dateBox infoCard__box">
-                    <p className="dateBox__text--label">Data de vencimento</p>
-                    <p className="dateBox__text--date">
+                <div className="subInfo infoCard__box">
+                    <p className="subInfo__text--label">Data de vencimento</p>
+                    <p className="subInfo__text--date">
                         {
                             isFisicCard ? 
                             "10/2048" :
                             "11/2048"
                         }
                     </p>
-                </div>
+                </div> 
+                {
+                    isFisicCard ? <></> :
+                    <div className="subInfo infoCard__box">
+                        <p className="subInfo__text--label">Código de segurança</p>
+                        <p className="subInfo__text--date">123</p>
+                    </div>
+                }
             </section>
             <section className="actionCard cardCentral__section--actionCard">
-                <p>oi</p>
+                <ul className="actionsList actionCard__actionsList" >
+                    {
+                        isFisicCard ? 
+                        fisicCardActions.map((action, index) => {
+                            return(
+                                <li className="actionItem actionsList__action" >
+                                    <div className="actionItem__icon" >
+                                        <action.Icon/>
+                                    </div>
+                                    <p className="actionItem__text" >{action.label}</p>
+                                </li>
+                            )
+                        })
+                        :
+                        virtualCardActions.map((action, index) => {
+                            return(
+                                <li className="actionItem actionsList__action" >
+                                    <div className="actionItem__icon" >
+                                        <action.Icon/>
+                                    </div>
+                                    <p className="actionItem__text" >{action.label}</p>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
             </section>
         </main>
     )
