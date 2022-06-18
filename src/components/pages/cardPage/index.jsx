@@ -13,8 +13,12 @@ const CardPage = () => {
     }
     return (
         <>
-            <CardHeader isFisicCard={isFisicCard} virtualCard={virtualCard} fisicCard={fisicCard}/>
-            <CardCentral/>
+            <CardHeader 
+                isFisicCard={isFisicCard} 
+                virtualCard={virtualCard} 
+                fisicCard={fisicCard}
+            />
+            <CardCentral isFisicCard={isFisicCard}/>
         </>
     )
 }
