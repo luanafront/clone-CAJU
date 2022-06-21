@@ -81,9 +81,9 @@
     padding: 0;
     list-style: none;
     padding-inline: 4rem;
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
 }
     .actionItem {
         display: flex;
@@ -95,7 +95,6 @@
             height: 70px;
             border: 1px solid #3a60ff;
             border-radius: 1.2rem;
-            margin-inline: 1.7rem;
             display: flex;
             justify-content: center;
             align-items: center;
