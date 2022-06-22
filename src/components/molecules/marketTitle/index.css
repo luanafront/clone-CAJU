@@ -1,0 +1,16 @@
+.marketTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marketTitle__title {
+    color: #f00;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0;
+    transform: translateY(-12px)
+}
+    .marketTitle__img {
+        height: 30px;
+    }

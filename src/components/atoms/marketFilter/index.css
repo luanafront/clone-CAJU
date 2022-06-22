@@ -1,0 +1,9 @@
+.marketFilter {
+    white-space: nowrap;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    padding: .5rem 2rem;
+    background-color: #f4f4f4;
+    border-radius: .8rem;
+    color: #4b4b4b;
+}

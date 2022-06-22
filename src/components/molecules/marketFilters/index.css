@@ -1,0 +1,19 @@
+.marketFilters {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    overflow-x: scroll;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+.marketFilters::-webkit-scrollbar {
+height: 0;
+}
+.marketFilters::-webkit-scrollbar-track {
+background: transparent; 
+}
+.marketFilters::-webkit-scrollbar-thumb {
+border-radius: 20px;       
+}

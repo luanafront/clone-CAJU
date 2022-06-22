@@ -1,0 +1,29 @@
+.curvedText {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.curvedText > div:nth-child(1){
+    transform:rotate(-25deg)
+}
+.curvedText > div:nth-child(2){
+    transform:translateY(-7px) rotate(-16deg) ;
+}
+.curvedText > div:nth-child(3){
+    transform:translateY(-10px) rotate(-13deg);
+}
+.curvedText > div:nth-child(4){
+    transform:translateY(-13px) rotate(-10deg);
+}
+.curvedText > div:nth-child(5){
+    transform:translateY(-14px);
+}
+.curvedText > div:nth-child(6){
+    transform: translateY(-13px) rotate(4deg);
+}
+.curvedText > div:nth-child(7){
+    transform: translateY(-8px) rotate(17deg)
+}
+.curvedText > div:nth-child(8){
+    transform:rotate(25deg)
+}

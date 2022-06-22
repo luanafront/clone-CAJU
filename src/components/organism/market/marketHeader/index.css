@@ -1,0 +1,16 @@
+.marketHeader {
+    padding-top: 5rem;;
+}
+    .marketHeader__img {
+        width: 80%;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        max-width: 615px;
+    }
+    .marketHeader__text {
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 auto;
+        color:#616161;
+    }
