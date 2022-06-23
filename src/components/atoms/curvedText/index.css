@@ -7,23 +7,23 @@
     transform:rotate(-25deg)
 }
 .curvedText > div:nth-child(2){
-    transform:translateY(-7px) rotate(-16deg) ;
+    transform: translateY(-8px) rotate(-18deg);
 }
 .curvedText > div:nth-child(3){
-    transform:translateY(-10px) rotate(-13deg);
+    transform: translateY(-12px) rotate(-13deg);
 }
 .curvedText > div:nth-child(4){
-    transform:translateY(-13px) rotate(-10deg);
+    transform: translateY(-14px) rotate(-7deg);
 }
 .curvedText > div:nth-child(5){
-    transform:translateY(-14px);
+    transform: translateY(-15px);
 }
 .curvedText > div:nth-child(6){
-    transform: translateY(-13px) rotate(4deg);
+    transform: translateY(-13px) rotate(13deg);
 }
 .curvedText > div:nth-child(7){
-    transform: translateY(-8px) rotate(17deg)
+    transform: translateY(-8px) rotate(18deg);
 }
 .curvedText > div:nth-child(8){
-    transform:rotate(25deg)
+    transform: rotate(25deg);
 }
