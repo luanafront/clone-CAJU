@@ -8,7 +8,7 @@ const Options = () => {
         <div className="options">
             {options.map((option, index)=> {
                 return (
-                    <OptionPage path={option.path} Icon={option.icon} text={option.label}/>
+                    <OptionPage key={index} path={option.path} Icon={option.icon} text={option.label}/>
                 )
             })}
         </div> 

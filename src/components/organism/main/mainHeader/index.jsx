@@ -47,6 +47,7 @@ const MainHeader = () => {
                 {moneyCards.map((card, index) => {
                     return (
                         <MoneyCard 
+                            key={index}
                             className="mainHeader__benefit"
                             Icon={card.Icon}
                             price={card.price}

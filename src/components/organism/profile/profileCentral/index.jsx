@@ -7,7 +7,7 @@ const ProfileCentral = () => {
         <ul>
             {profileOptions.map((option,index)=>{
                 return(
-                    <ProfileOption Icon={option.Icon} content={option.text} link={option.link}/>
+                    <ProfileOption key={index} Icon={option.Icon} content={option.text} link={option.link}/>
                 )
             })}
         </ul>

@@ -7,13 +7,23 @@
     margin-top: 2rem;
     -ms-overflow-style: none;
     scrollbar-width: none; 
+    background-color: #fff;
 }
 .marketFilters::-webkit-scrollbar {
-height: 0;
+    height: 0;
 }
 .marketFilters::-webkit-scrollbar-track {
-background: transparent; 
+    background: transparent; 
 }
 .marketFilters::-webkit-scrollbar-thumb {
-border-radius: 20px;       
+    border-radius: 20px;       
+}
+.marketFilterFixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: 0;
+    overflow-x: scroll;
+    width: 100vw;
 }

@@ -55,7 +55,7 @@ const CardCentral = ({isFisicCard = true}) => {
                         isFisicCard ? 
                         fisicCardActions.map((action, index) => {
                             return(
-                                <li className="actionItem actionsList__action" >
+                                <li key={index} className="actionItem actionsList__action" >
                                     <div className="actionItem__icon" >
                                         <action.Icon/>
                                     </div>
@@ -66,7 +66,7 @@ const CardCentral = ({isFisicCard = true}) => {
                         :
                         virtualCardActions.map((action, index) => {
                             return(
-                                <li className="actionItem actionsList__action" >
+                                <li key={index} className="actionItem actionsList__action" >
                                     <div className="actionItem__icon" >
                                         <action.Icon/>
                                     </div>

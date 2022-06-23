@@ -3,12 +3,12 @@ import MarketFilter from "../../atoms/marketFilter";
 import filters from "./filters";
 import "./index.css"
 
-const MarketFilters = () => {
+const MarketFilters = ({scroll, subScroll}) => {
     return (
-        <ul className="marketFilters">
+        <ul id="marketFilters" className={`marketFilters ${scroll < 1 && subScroll < 1 ? "marketFilterFixed" : ""}`}>
             {filters.map((filter, index)=> {
                 return (
-                    <MarketFilter content={filter}/>
+                    <MarketFilter key={index} content={filter}/>
                 )
             })}
         </ul>

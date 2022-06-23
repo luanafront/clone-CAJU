@@ -1,13 +1,19 @@
 .marketHeader {
     padding-top: 5rem;;
 }
-    .marketHeader__img {
-        width: 80%;
-        display: block;
-        margin: 2rem auto;
-        border-radius: 1rem;
-        max-width: 615px;
+    .marketHeader__pic {
+        height: 371px;
     }
+        .marketHeader__img {
+            width: 80%;
+            display: block;
+            margin: 2rem auto;
+            border-radius: 1rem;
+            max-width: 615px;
+        }
+        .marketHeader__fig {
+            display: none;
+        }
     .marketHeader__text {
         font-size: 1.5rem;
         width: 80%;
