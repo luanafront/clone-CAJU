@@ -1,10 +1,12 @@
 import React from "react";
+import MarketItem from "../../../molecules/marketItens";
 import "./index.css";
+
 
 const MarketCentral = () => {
     return (
         <main>
-            oi
+            <MarketItem/>
         </main>
     )
 }
