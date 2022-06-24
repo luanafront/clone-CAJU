@@ -28,7 +28,7 @@
     margin-right: 1.5rem;
     border: 1px solid #3a60ff;
     outline: none;
-    width: 191px;
+    width: 100%;
 }
     .genericInput__input {
         background-color: #fff ;

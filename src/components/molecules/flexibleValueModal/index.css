@@ -37,3 +37,9 @@
             border-radius: 0.7rem;
             margin-top: 1rem;
         }
+
+@media (min-width: 650px) {
+    .modalBox {
+        width: 475px;
+    }
+}

@@ -29,3 +29,10 @@
             font-size: 1.5rem;
             margin-left: 1rem;
         }
+
+@media (min-width: 650px) {
+    .benefitCentral__button {
+        width: calc(650px - 6rem)
+    }
+
+}
