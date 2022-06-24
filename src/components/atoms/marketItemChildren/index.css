@@ -1,5 +1,5 @@
 .marketItem__children {
-    border: 1px solid rgba(0, 0, 0, 0.178);
+    border: 2px solid rgba(0, 0, 0, 0.068);
     list-style: none;
     padding: 1rem;
     display: flex;
@@ -8,9 +8,9 @@
     border-radius: 1rem;
 }
     .marketItem__children--img {
-        height: 7rem;
-        width: 7rem;
-        border: 1px solid rgba(0, 0, 0, 0.144);
+        height: 6.3rem;
+        width: 6.3rem;
+        border: 1px solid rgba(0, 0, 0, 0.075);
         border-radius: 1rem;
         padding: 0;
         margin: 0;

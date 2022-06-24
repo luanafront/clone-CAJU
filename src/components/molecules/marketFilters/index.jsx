@@ -4,7 +4,6 @@ import filters from "./filters";
 import "./index.css"
 
 const MarketFilters = ({scroll, subScroll}) => {
-    console.log(scroll)
     let limitSubScroll = -40
     return (
         <>
