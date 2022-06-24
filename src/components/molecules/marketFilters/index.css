@@ -4,10 +4,11 @@
     list-style: none;
     overflow-x: scroll;
     padding-left: 2rem;
-    margin-top: 2rem;
+    padding-block: 2rem 1rem;
     -ms-overflow-style: none;
     scrollbar-width: none; 
     background-color: #fff;
+    margin: 0;
 }
 .marketFilters::-webkit-scrollbar {
     height: 0;

@@ -1,10 +1,11 @@
 import React from "react";
 import marketItens from "./marketItens";
 import MarketItemFather from "../../atoms/marketItemFather";
+import "./index.css";
 
 const MarketItem = () => {
     return (
-        <ul>
+        <ul className="marketItem">
             {
               marketItens.map((item, index) => {
                 return (

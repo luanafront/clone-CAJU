@@ -1,14 +1,17 @@
 import React from "react";
 import MarketItemChildren from "../marketItemChildren";
+import "./index.css";
 
 const MarketItemFather = ({item}) => {
     return (
-        <li>
-            <div>
-            <item.Icon/> 
+        <li className="marketItem__father">
+            <div className="marketItem__fatherBox">
+                <div className="marketItem__father--icon">
+                <item.Icon/> 
+                </div>
+                <h3 className="marketItem__father--title">{item.label}</h3>
             </div>
-            <h3>{item.label}</h3>
-            <ul>
+            <ul className="marketItens__children">
                 {
                     item.itens.map((marketItem, index) => {
                         return (
