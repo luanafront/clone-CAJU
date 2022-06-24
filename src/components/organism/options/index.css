@@ -9,3 +9,11 @@
     background-color: #fff;
     padding-inline: 2.0rem ;
 }
+
+@media (min-width:650px){
+    .options {
+        max-width: 650px;
+        margin-inline: auto;
+        padding-inline: 0;
+    }
+}
