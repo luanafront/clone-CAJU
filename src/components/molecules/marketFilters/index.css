@@ -22,11 +22,16 @@
 .marketFilterFixed {
     position: fixed;
     top: 0;
-    left: calc(50% - 325px);
+    left: 0;
     z-index: 2;
     margin: 0;
     overflow-x: scroll;
     width: 100vw;
-    max-width: 650px;
-    margin-inline: auto;
+}
+@media (min-width:650px){
+    .marketFilterFixed {
+        max-width: 650px;
+        left: calc(50% - 325px);
+    }
+    
 }
